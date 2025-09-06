@@ -1,16 +1,15 @@
+ACADPAY
 
-AcadPay is a smart contract that helps students pay their school fees directly to universities using USDC.
+AcadPay is a smart contract that helps students pay their school fees directly to schools using USDC, astablecoin.
 
 How It Works
+Students Pay Fees: Students send their school fees in USDC to the school’s wallet address using this contract.
+Secure Payments: The contract makes sure payments are only sent in USDC and records each payment.
+Easy for Schools: Schools receive payments directly to their wallet.
+Key Points
+Payments are made in USDC, a stable coin.
+Only valid payments are accepted (no zero amounts or invalid addresses).
+Each payment is recorded for transparency.
 
-Universities Register: The AcadPay admin adds universities to the system, giving each a name and a wallet address to receive payments.
 
-Students Pay Fees: Students can pay their fees in USDC to any registered university. Each payment is recorded with details like the student’s ID, university name, amount, and time.
-
-Secure and Transparent: Every payment is tracked, so both students and universities can see proof of payment.
-
-Features
-Only the AcadPay admin can add universities.
-Payments are made in USDC, because it is a stable coin.
-Each payment is securely recorded and can be checked later.
-# AcadPay
+ABI is located in the out/acadpay.sol/acadPay.json
